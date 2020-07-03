@@ -8,6 +8,24 @@ body {
   color: rgb(57, 57, 57);
 }
 
+h1, h2, p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+a {
+  color: rgb(60, 122, 219);
+  text-decoration: none;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -18,7 +36,6 @@ nav {
 nav a {
   display: block;
   color: inherit;
-  text-decoration: none;
   margin-right: 16px;
 }
 
@@ -61,7 +78,7 @@ nav > :last-child {
   margin: 0;
 }
 
-.banner div {
+.banner p {
   margin: 30px 0;
 }
 
@@ -74,3 +91,63 @@ nav > :last-child {
   padding: 8px;
   border: none;
 }
+
+.information {
+  display: flex;
+  margin: 0 0 32px 24px;
+}
+
+.information > * {
+  padding-top: 32px;
+}
+
+.information h1 {
+  margin: 32px 0 24px;
+}
+
+.information .left {
+  min-width: 60%;
+  max-width: 60%;
+  margin-right: 24px;
+}
+
+.information .left img {
+  width: 100%;
+}
+
+.information .left p:last-child {
+  margin-top: 32px;
+}
+
+.information .right {
+  border-left: 1px solid rgb(207, 207, 207);
+}
+
+.information .right aside {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.information .right aside:first-child {
+  padding-top: 0;
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.information .right aside:last-child {
+  background-color: rgb(207, 207, 207);
+}
+
+.information .right img {
+  width: 35%;
+  margin-right: 24px
+}
+
+.information .right div {
+  flex-grow: 1;
+}
+
+.information .right p {
+  margin: 8px 0;
+}
+
