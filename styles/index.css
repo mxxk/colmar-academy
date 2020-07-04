@@ -42,7 +42,6 @@ nav a {
 nav .logo {
   display: flex;
   align-items: center;
-  margin-right: auto;
   font-weight: bold;
   font-size: 20px;
 }
@@ -260,4 +259,26 @@ footer > :first-child {
 
 footer > :last-child {
   margin-left: 16px;
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 801px) {
+  .mobile {
+    display: none;
+  }
+
+  nav .logo {
+    margin-right: auto;
+  }
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 800px) {
+  .desktop {
+    display: none;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
 }
