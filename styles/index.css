@@ -248,3 +248,16 @@ nav > :last-child {
 .thesis .right h2 {
   margin-bottom: 16px;
 }
+
+footer {
+  padding: 16px 24px 48px;
+  display: flex;
+}
+
+footer > :first-child {
+  margin-right: auto;
+}
+
+footer > :last-child {
+  margin-left: 16px;
+}
