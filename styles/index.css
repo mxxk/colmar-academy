@@ -196,3 +196,55 @@ nav > :last-child {
 .courses .row aside > :last-child {
   margin-top: 8px;
 }
+
+.thesis {
+  padding: 32px 24px;
+  background-color: rgb(240, 242, 242);
+}
+
+.thesis h1 {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.thesis article {
+  display: flex;
+}
+
+.thesis .left {
+  min-width: 60%;
+  max-width: 60%;
+  margin-right: 24px;
+}
+
+.thesis .left video {
+  width: 100%;
+}
+
+.thesis .left h2 {
+  margin: 24px 0 8px;
+}
+
+.thesis .right {
+  flex-grow: 1;
+}
+
+.thesis .right > :first-child {
+  background-color: rgb(207, 207, 207);
+}
+
+.thesis .right > div {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.thesis .right img {
+  min-width: 35%;
+  max-width: 35%;
+  margin-right: 16px;
+}
+
+.thesis .right h2 {
+  margin-bottom: 16px;
+}
