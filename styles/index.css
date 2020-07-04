@@ -152,3 +152,47 @@ nav > :last-child {
   margin: 8px 0;
 }
 
+.courses {
+  padding: 32px 72px;
+  background-color: rgb(229, 230, 231);
+}
+
+.courses h1 {
+  text-align: center;
+}
+
+.courses .row {
+  margin-top: 32px;
+  display: flex;
+}
+
+.courses .row aside {
+  margin-left: 32px;
+  width: 427px;
+  flex-grow: 1;
+  background-color: white;
+  padding-bottom: 24px;
+}
+
+.courses .row aside:first-child {
+  margin-left: 0;
+}
+
+.courses .row aside > * {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.courses .row aside img {
+  width: 100%;
+  display: block;
+  margin: 0 0 16px;
+}
+
+.courses .row aside h2 {
+  margin-bottom: 8px;
+}
+
+.courses .row aside > :last-child {
+  margin-top: 8px;
+}
