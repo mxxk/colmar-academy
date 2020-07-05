@@ -201,11 +201,12 @@ footer {
 
   .information {
     display: flex;
-    padding: 0 0 32px 24px;
+    padding-left: 24px;
   }
 
   .information > * {
     padding-top: 32px;
+    padding-bottom: 32px;
   }
 
   .information .right {
