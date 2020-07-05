@@ -114,28 +114,14 @@ nav > :last-child {
 
 .courses {
   padding: 32px 72px;
-  background-color: rgb(229, 230, 231);
 }
 
 .courses h1 {
   text-align: center;
 }
 
-.courses .row {
-  margin-top: 32px;
-  display: flex;
-}
-
 .courses .row aside {
-  margin-left: 32px;
-  width: 427px;
-  flex-grow: 1;
-  background-color: white;
   padding-bottom: 24px;
-}
-
-.courses .row aside:first-child {
-  margin-left: 0;
 }
 
 .courses .row aside > * {
@@ -143,18 +129,13 @@ nav > :last-child {
   margin-right: 16px;
 }
 
-.courses .row aside img {
-  width: 100%;
-  display: block;
-  margin: 0 0 16px;
+.courses .row aside > :last-child {
+  margin-top: 8px;
 }
 
 .courses .row aside h2 {
-  margin-bottom: 8px;
-}
-
-.courses .row aside > :last-child {
-  margin-top: 8px;
+  padding-top: 16px;
+  padding-bottom: 8px;
 }
 
 .thesis {
@@ -273,6 +254,33 @@ footer > :last-child {
   .information .right div {
     flex-grow: 1;
   }
+
+  .courses {
+    background-color: rgb(229, 230, 231);
+  }
+
+  .courses .row {
+    margin-top: 32px;
+    display: flex;
+  }
+
+  .courses .row aside {
+    margin-left: 32px;
+    background-color: white;
+    width: 427px;
+    flex-grow: 1;
+    padding-bottom: 24px;
+  }
+
+  .courses .row aside:first-child {
+    margin-left: 0;
+  }
+
+  .courses .row aside img {
+    width: 100%;
+    display: block;
+    margin: 0;
+  }
 }
 
 /* Mobile styles */
@@ -315,5 +323,34 @@ footer > :last-child {
 
   .information .right div {
     padding: 16px 16px 0;
+  }
+
+  .courses {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .courses h1 {
+    margin-bottom: 16px;
+  }
+
+  .courses .row aside {
+    background-color: rgb(207, 207, 207);;
+  }
+
+  .courses .row aside {
+    margin-bottom: 8px;
+  }
+
+  .courses .row:last-child aside:last-child {
+    margin-bottom: 0;
+  }
+
+  .courses .row aside h2 {
+    padding-bottom: 0;
+  }
+
+  .courses .row aside :not(h2) {
+    display: none;
   }
 }
