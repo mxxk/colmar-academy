@@ -138,10 +138,6 @@ nav > :last-child {
   padding-bottom: 8px;
 }
 
-.thesis {
-  padding: 32px 24px;
-}
-
 .thesis h1 {
   text-align: center;
   margin-bottom: 32px;
@@ -149,12 +145,6 @@ nav > :last-child {
 
 .thesis article {
   display: flex;
-}
-
-.thesis .left {
-  min-width: 60%;
-  max-width: 60%;
-  margin-right: 24px;
 }
 
 .thesis .left video {
@@ -281,6 +271,16 @@ footer > :last-child {
     display: block;
     margin: 0;
   }
+
+  .thesis {
+    padding: 32px 24px;
+  }
+
+  .thesis .left {
+    min-width: 60%;
+    max-width: 60%;
+    margin-right: 24px;
+  }
 }
 
 /* Mobile styles */
@@ -352,5 +352,13 @@ footer > :last-child {
 
   .courses .row aside :not(h2) {
     display: none;
+  }
+
+  .thesis {
+    padding: 32px 0 24px;
+  }
+
+  .thesis h1 {
+    margin-bottom: 16px;
   }
 }
